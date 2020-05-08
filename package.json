@@ -45,7 +45,7 @@
     "start": "npm run develop",
     "serve": "ts-node ./node_modules/.bin/gatsby serve",
     "clean": "ts-node ./node_modules/.bin/gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "test": "jest",
     "lint": "eslint ./src/**/*.tsx ./src/**/*.ts",
     "fix": "npm run lint --fix"
   },
